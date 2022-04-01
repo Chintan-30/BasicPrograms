@@ -2,14 +2,19 @@
 # checks is string pelindrom or nor
 # 121 == 121
 
-n=int(input("Enter number:"))
-temp=n
-rev=0
-while(n>0):
-    dig=n%10
-    rev=rev*10+dig
-    n=n//10
-if(temp==rev):
-    print("The number is a palindrome!")
-else:
-    print("The number isn't a palindrome!")
+def len(_sr):
+    print(_sr(0))
+
+
+_sr = list(input("enter name: "))
+
+
+
+
+print(len(_sr[0]))
+'''
+
+for i in range(10):
+    print(_sr[i])
+    i += 1
+'''

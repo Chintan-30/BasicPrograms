@@ -59,18 +59,17 @@ while no_of_chance < chance:
         print(f"computer_point is {computer_point} and your point is {human_point} \n ")
 
     else:
-        print("you give wrong inputi \n")
+        print("you have input wrong \n")
 
     no_of_chance = no_of_chance + 1
     print(f"{chance - no_of_chance} is left out of {chance} \n")
 
-print("Game over\n\n")
+print("Game over")
 
 if computer_point > human_point:
-    print("Computer wins and you loose\n")
+    print("Computer wins and you loose")
 
 if computer_point < human_point:
-    print("you win and computer loose\n")
-
+    print("you win and computer loose")
 
 print(f"your point is {human_point} and computer point is {computer_point}")

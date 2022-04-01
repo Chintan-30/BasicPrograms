@@ -11,5 +11,3 @@ class B(A):
 
 b = B()
 b.show()
-a = A()
-a.show()
